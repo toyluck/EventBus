@@ -16,6 +16,9 @@
 
 package org.greenrobot.eventbus;
 
+/**
+ * 一个首尾相接的链表 Queue.
+ */
 final class PendingPostQueue {
     private PendingPost head;
     private PendingPost tail;

@@ -46,6 +46,9 @@ import javax.tools.JavaFileObject;
 
 import de.greenrobot.common.ListMap;
 
+/**
+ * 获取被 {@link org.greenrobot.eventbus.Subscribe}所标记的类,在编译时期生成代码.
+ */
 @SupportedAnnotationTypes("org.greenrobot.eventbus.Subscribe")
 @SupportedOptions(value = {"eventBusIndex", "verbose"})
 public class EventBusAnnotationProcessor extends AbstractProcessor {
